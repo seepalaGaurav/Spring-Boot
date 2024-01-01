@@ -20,7 +20,7 @@ public class QuizController {
         return quizService.createQuiz(category,numQ,title);
     }
     @GetMapping("get/{id}")
-    public ResponseEntity<List<QuestionWrapper>> getQuizzQuestions(@PathVariable int id){
+    public ResponseEntity<List<QuestionWrapper>> getQuizQuestions(@PathVariable int id){
         return quizService.getQuizQuestions(id);
     }
     @PostMapping("submit/{id}")

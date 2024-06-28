@@ -43,4 +43,14 @@ public class QuestionService {
 		}
 
 	}
+	public void deleteQuestionById(int id){
+			try{
+				questionRepository.deleteById(id);
+				System.out.println(HttpStatus.OK);
+			}
+			catch(Exception e){
+				System.out.println(HttpStatus.BAD_REQUEST);
+			}
+		}
+	}
 }

@@ -44,7 +44,7 @@ Score with three correct answers(3/5):
 ![quizSubmitSomeCorrectAnswers](https://github.com/seepalaGaurav/Spring-Boot/assets/155337846/d5519d6c-d32e-4fe3-8512-643b62b661dd)
 
 
-
+Added The delete Functionality in the Question Controller and Service.
 
 
 
